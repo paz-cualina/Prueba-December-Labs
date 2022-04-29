@@ -1,0 +1,126 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #03223b;
+    margin: 50px;
+    height: 100%;
+    min-height: 100vh;
+    font-family: 'Trebuchet MS';
+    color: white;
+}
+
+.header-container {
+    width: 80%; 
+    height: 100px;
+    background-color: #007ad0;
+    margin: 0 auto 5px auto;
+}
+
+header h1 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.wrapper-top {
+    width: 87%;
+    height: 60px;
+    margin: -20px auto;
+    display: flex;
+    perspective: 350px;
+    transform-style: preserve-3d;
+    column-gap: 7px;
+}
+
+.top {
+    flex-grow: 1;
+    height: 100%;
+    background-color: #00457c;
+    perspective-origin: inherit;
+    transform-style: preserve-3d;
+    transform: rotateX(71deg); 
+}
+
+.wrapper-front {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 7px;
+}
+
+.front-up {
+    flex-grow: 1;
+    height: 20px;
+    background-color: #007ad0;
+}
+
+.front {
+    width: inherit;
+    height: 100%;
+    min-height: 600px;
+    background-color: #002c4f;
+}
+
+.front p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    width: 80%;
+    margin: 20px auto;
+    opacity: 0.1;
+}
+
+.front .title-front2,
+.front .title-front1 {
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.front .title-front1 {
+    font-size: 14x;
+    padding-top: 20px;
+}
+
+.front .title-front2 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.front .text-front {
+    font-weight: 200;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+
+.front-down {
+    flex-grow: 1;
+    height: 3px;
+    background-color: #007ad0;
+}
+
+@media only screen and (max-width: 890px) {
+
+body {
+    margin: 30px;
+}
+
+.front .title-front1 {
+    font-size: 12x;
+    padding-top: 15px;
+}
+
+.front .title-front2 {
+    font-size: 11px;
+    padding-bottom: 15px;
+}
+
+}
