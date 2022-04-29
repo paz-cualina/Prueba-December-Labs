@@ -89,7 +89,7 @@ hr {
 
 .front .title-front1 {
     font-size: 14x;
-    padding-top: 20px;
+    padding-top: 25px;
 }
 
 .front .title-front2 {
@@ -107,12 +107,12 @@ hr {
 @media only screen and (max-width: 890px) {
 
     body {
-        margin: 30px;
+        margin: 50px 30px;
     }
 
     .front .title-front1 {
-        font-size: 12x;
-        padding-top: 15px;
+        font-size: 12px;
+        padding-top: 20px;
     }
 
     .front .title-front2 {
@@ -136,6 +136,11 @@ hr {
 }
 
 @media only screen and (max-width: 383px) {
+
+    header h1 {
+        font-size: 17px;
+        padding: 33px 15px;
+    }
 
     .wrapper-top,
     .wrapper-front {
