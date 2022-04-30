@@ -35,7 +35,6 @@ header h1 {
     display: grid;
     perspective: 350px;
     transform: scale(0.92);
-    transform-style: preserve-3d;
     gap: 7px;
     grid-template-columns: repeat(3, minmax(150px, 1fr));
 }
@@ -43,7 +42,6 @@ header h1 {
 .top {
     height: 100%;
     background-color: #00457c;
-    perspective-origin: inherit;
     transform-style: preserve-3d;
     transform: rotateX(71deg); 
 }
